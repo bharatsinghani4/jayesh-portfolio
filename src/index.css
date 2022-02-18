@@ -1,3 +1,9 @@
+@import './App.css';
+@import '../src/components/Home/Home.css';
+@import '../src/components/Loader/Loader.css';
+@import '../src/components/MainContent/MainContent.css';
+@import '../src/components/SideNav/SideNav.css';
+
 @font-face {
   font-family: raleway-black;
   src: url(./resources/fonts/Raleway-Black.ttf);
