@@ -1,6 +1,6 @@
 import './Loader.css';
 import { useState, useEffect } from 'react';
-import { SideNav } from '../SideNav/SideNav';
+// import { SideNav } from '../SideNav/SideNav';
 import { MainContent } from '../MainContent/MainContent';
 
 export const Loader = () => {
@@ -69,7 +69,7 @@ export const Loader = () => {
       {!isLoading && (
         <div className='Loader__flex'>
           <MainContent />
-          <SideNav />
+          {/* <SideNav /> */}
         </div>
       )}
     </div>

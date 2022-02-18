@@ -1,8 +1,8 @@
-import { Loader } from '../Loader/Loader';
+import { Loader } from './components/Loader/Loader';
 import { Routes, Route, Link } from 'react-router-dom';
 import './App.css';
 
-export const App = () => {
+const App = () => {
   return (
     <div className='App'>
       <Routes>
@@ -11,3 +11,5 @@ export const App = () => {
     </div>
   );
 };
+
+export default App;
