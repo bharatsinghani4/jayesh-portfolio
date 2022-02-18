@@ -1,0 +1,16 @@
+.SideNav {
+  width: 11.5rem;
+  padding: 2rem;
+}
+
+.SideNav__Logo {
+  display: block;
+  font-size: 0;
+}
+
+.SideNav__Logo--title {
+  font-family: raleway-bold;
+  font-size: 1.2rem;
+  margin: 0;
+  text-align: center;
+}

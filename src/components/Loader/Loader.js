@@ -1,7 +1,8 @@
 import './Loader.css';
 import { useState, useEffect } from 'react';
-// import { SideNav } from '../SideNav/SideNav';
+import { SideNav } from '../SideNav/SideNav';
 import { MainContent } from '../MainContent/MainContent';
+import logo from '../../resources/images/logo_transparent.png';
 
 export const Loader = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -37,7 +38,7 @@ export const Loader = () => {
     return () => {
       clearTimeout(timeoutId);
     };
-  }, []);
+  }, [isLoading]);
 
   return (
     <div className='Container__fullWidth'>
@@ -69,7 +70,7 @@ export const Loader = () => {
       {!isLoading && (
         <div className='Loader__flex'>
           <MainContent />
-          {/* <SideNav /> */}
+          <SideNav logoURL={logo} title='Jack of all things!' />
         </div>
       )}
     </div>

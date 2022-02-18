@@ -1,13 +1,57 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: raleway-black;
+  src: url(./resources/fonts/Raleway-Black.ttf);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: raleway-bold;
+  src: url(./resources/fonts/Raleway-Bold.ttf);
+}
+
+@font-face {
+  font-family: raleway-extra-bold;
+  src: url(./resources/fonts/Raleway-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: raleway-extra-light;
+  src: url(./resources/fonts/Raleway-ExtraLight.ttf);
+}
+
+@font-face {
+  font-family: raleway-light;
+  src: url(./resources/fonts/Raleway-Light.ttf);
+}
+
+@font-face {
+  font-family: raleway-medium;
+  src: url(./resources/fonts/Raleway-Medium.ttf);
+}
+
+@font-face {
+  font-family: raleway-regular;
+  src: url(./resources/fonts/Raleway-Regular.ttf);
+}
+
+@font-face {
+  font-family: raleway-semi-bold;
+  src: url(./resources/fonts/Raleway-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: raleway-thin;
+  src: url(./resources/fonts/Raleway-Thin.ttf);
+}
+
+body {
+  background: #1d1d1d;
+  color: #ffffff;
+  font-family: raleway-medium;
+  font-size: 62.5%;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
 }
