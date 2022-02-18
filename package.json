@@ -29,8 +29,9 @@
     "webpack-dev-server": "^4.7.4"
   },
   "scripts": {
-    "start": "react-scripts start --mode production",
+    "start": "webpack-dev-servver --open --hot --mode production",
     "build": "webpack --mode production",
+    "heroku-postbuild": "webpack --mode production",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
