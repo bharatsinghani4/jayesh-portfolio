@@ -1,5 +1,9 @@
 .SideNav {
-  width: 11.5rem;
+  background-color: #181818;
+  width: 24rem;
+}
+
+.SideNav__Logo--wrapper {
   padding: 2rem;
 }
 
@@ -8,9 +12,13 @@
   font-size: 0;
 }
 
+.SideNav__Logo a {
+  display: block;
+}
+
 .SideNav__Logo--title {
   font-family: raleway-bold;
-  font-size: 1.2rem;
+  font-size: 2rem;
   margin: 0;
   text-align: center;
 }

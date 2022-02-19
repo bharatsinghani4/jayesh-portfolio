@@ -1,3 +1,174 @@
 .MainContent {
-  width: calc(100% - 16rem);
+  align-items: center;
+  display: flex;
+  padding: 9rem 6rem;
+  position: relative;
+  width: calc(100% - 36rem);
+}
+
+.MainContent::before,
+.MainContent::after,
+.MainContent__wrapper h1:before,
+.MainContent__wrapper h1:after,
+.MainContent__subtitle::before,
+.MainContent__subtitle::after {
+  color: #515152;
+  font-family: raleway-thin;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 1.8rem;
+  position: absolute;
+}
+
+.MainContent::before {
+  content: '<html>';
+  top: 3rem;
+  left: 3rem;
+}
+
+.MainContent::after {
+  content: '<body>';
+  top: 7rem;
+  left: 5rem;
+}
+
+.MainContent__wrapper {
+  padding-left: 5rem;
+  position: relative;
+}
+
+.MainContent__wrapper h1 {
+  color: #fff;
+  font-family: raleway-extra-bold;
+  font-size: 10rem;
+  line-height: 8.7rem;
+  margin: 0;
+}
+
+.MainContent__wrapper h1:before {
+  content: '<h1>';
+  left: 2rem;
+  margin-top: -6rem;
+}
+
+.MainContent__wrapper h1:after {
+  content: '</h1>';
+  margin-top: 3rem;
+  right: -6rem;
+}
+
+.MainContent__subtitle {
+  color: #8d8d8d;
+  font-size: 1.6rem;
+  letter-spacing: 4px;
+  margin-top: 5rem;
+  position: relative;
+}
+
+.MainContent__subtitle::before {
+  content: '<p>';
+  margin-top: -3rem;
+  left: -3rem;
+}
+.MainContent__subtitle::after {
+  content: '</p>';
+  margin-top: 2rem;
+  left: -3rem;
+}
+
+.space {
+  margin-right: 3rem;
+}
+
+/* .MainContent__word {
+  margin-bottom: 1rem;
+}
+
+.MainContent__word--inline {
+  display: inline-block;
+}
+
+.MainContent__word--inline:nth-of-type(2) {
+  margin-left: 3rem;
+} */
+
+/* .seagreen {
+  color: #c6f1e7;
+} */
+
+.MainContent__title--letter {
+  display: inline-block;
+  color: #ffffff;
+}
+
+.MainContent__title--letter:hover {
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: both;
+  animation-play-state: running;
+  animation-name: rubberBand;
+  color: #08fdd8;
+}
+
+.MainContent__contactMeCTA {
+  border: 2px solid #08fdd8;
+  color: #08fdd8;
+  display: inline-block;
+  font-size: 1.5rem;
+  letter-spacing: 0.4rem;
+  margin-top: 3rem;
+  padding: 1.5rem 4.5rem;
+  text-decoration: none;
+}
+
+.MainContent__contactMeCTA:hover {
+  background-color: #08fdd8;
+  color: #515152;
+}
+
+@keyframes rubberBand {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+
+  30% {
+    transform: scale3d(1.25, 0.75, 1);
+  }
+
+  40% {
+    transform: scale3d(0.75, 1.25, 1);
+  }
+
+  50% {
+    transform: scale3d(1.15, 0.85, 1);
+  }
+
+  65% {
+    transform: scale3d(0.95, 1.05, 1);
+  }
+
+  75% {
+    transform: scale3d(1.05, 0.95, 1);
+  }
+
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.rubberBand {
+  /* -webkit-animation-name: rubberBand;
+  animation-name: rubberBand; */
+  /* -webkit-animation: rubberBand 1s; */
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: both;
+  animation-play-state: running;
+  animation-name: rubberBand;
 }

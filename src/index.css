@@ -1,8 +1,8 @@
-@import './App.css';
+/* @import './App.css';
 @import '../src/components/Home/Home.css';
 @import '../src/components/Loader/Loader.css';
 @import '../src/components/MainContent/MainContent.css';
-@import '../src/components/SideNav/SideNav.css';
+@import '../src/components/SideNav/SideNav.css'; */
 
 @font-face {
   font-family: raleway-black;
@@ -49,15 +49,22 @@
   src: url(./resources/fonts/Raleway-Thin.ttf);
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
   background: #1d1d1d;
   color: #ffffff;
   font-family: raleway-medium;
-  font-size: 62.5%;
   margin: 0;
   padding: 0;
 }
 
 img {
   width: 100%;
+}
+
+.section-full {
+  height: 100vh;
 }

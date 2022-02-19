@@ -4,6 +4,8 @@ import { MainContent } from '../MainContent/MainContent';
 import { SideNav } from '../SideNav/SideNav';
 import logo from '../../resources/images/logo_transparent.png';
 import './Home.css';
+import { Contact } from '../Contact/Contact';
+import { About } from '../About/About';
 
 export const Home = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -45,9 +47,13 @@ export const Home = () => {
     <div className='Container__fullWidth'>
       {isLoading && <Loader />}
       {!isLoading && (
-        <div className='Loader__flex'>
-          <MainContent />
-          <SideNav logoURL={logo} title='Jack of all things!' />
+        <div className='Home'>
+          <div className='Loader__flex section-full'>
+            <MainContent />
+            <SideNav logoURL={logo} title='Jack of all things!' />
+          </div>
+          <About />
+          <Contact />
         </div>
       )}
     </div>
