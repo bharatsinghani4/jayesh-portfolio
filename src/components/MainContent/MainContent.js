@@ -232,7 +232,7 @@ export const MainContent = () => {
           </div> */}
         </h1>
         <p className='MainContent__subtitle'>
-          Blogger / Freelancer / Entrepreneur
+          CEO(Tearaveller) / Entrepreneur / Photographer / Freelancer / Blogger
         </p>
         <Link
           to='/contact'

@@ -6,6 +6,8 @@ import logo from '../../resources/images/logo_transparent.png';
 import './Home.css';
 import { Contact } from '../Contact/Contact';
 import { About } from '../About/About';
+import { Photography } from '../Photography/Photography';
+import { Instagram } from '../Instagram/Instagram';
 
 export const Home = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -53,6 +55,8 @@ export const Home = () => {
             <SideNav logoURL={logo} title='Jack of all things!' />
           </div>
           <About />
+          <Photography />
+          <Instagram />
           <Contact />
         </div>
       )}

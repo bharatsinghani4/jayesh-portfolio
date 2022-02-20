@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
 import { Loader } from '../Loader/Loader';
-import './About.css';
+import './Instagram.css';
 
-export const About = () => {
+export const Instagram = () => {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
@@ -41,8 +41,8 @@ export const About = () => {
     <div className='Container__fullWidth'>
       {isLoading && <Loader />}
       {!isLoading && (
-        <div className='About section-full'>
-          <p>Hi I am from about component.</p>
+        <div className='Instagram section-full'>
+          <p>Hi I am from instagram component.</p>
         </div>
       )}
     </div>

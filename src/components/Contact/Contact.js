@@ -1,9 +1,50 @@
+import { useState, useEffect } from 'react';
+import { Loader } from '../Loader/Loader';
 import './Contact.css';
 
 export const Contact = () => {
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    setIsLoading(true);
+  }, []);
+
+  useEffect(() => {
+    if (!isLoading) {
+      setIsLoading(false);
+      return;
+    } else {
+      for (let i = 1; i <= 6; i++) {
+        setTimeout(() => {
+          if (i >= 2) {
+            document
+              .querySelector(`.Loader__wrapper--light:nth-child(${i - 1})`)
+              .firstElementChild.classList.remove('on');
+          }
+          document
+            .querySelector(`.Loader__wrapper--light:nth-child(${i})`)
+            .firstElementChild.classList.add('on');
+        }, i * 200);
+      }
+      setIsLoading(true);
+    }
+
+    const timeoutId = setTimeout(() => {
+      setIsLoading(false);
+    }, 1500);
+
+    return () => {
+      clearTimeout(timeoutId);
+    };
+  }, [isLoading]);
   return (
-    <div className='Contact section-full'>
-      <p>Hi I am from contact component.</p>
+    <div className='Container__fullWidth'>
+      {isLoading && <Loader />}
+      {!isLoading && (
+        <div className='Contact section-full'>
+          <p>Hi I am from contact component.</p>
+        </div>
+      )}
     </div>
   );
 };
