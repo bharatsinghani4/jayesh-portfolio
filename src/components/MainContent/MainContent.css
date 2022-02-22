@@ -41,7 +41,7 @@
   color: #fff;
   font-family: raleway-extra-bold;
   font-size: 10rem;
-  line-height: 8.7rem;
+  line-height: 10rem;
   margin: 0;
 }
 
@@ -92,13 +92,13 @@
   margin-left: 3rem;
 } */
 
-/* .seagreen {
-  color: #c6f1e7;
-} */
-
 .MainContent__title--letter {
   display: inline-block;
   color: #ffffff;
+}
+
+.seagreen {
+  color: rgb(8, 253, 216);
 }
 
 .MainContent__title--letter:hover {

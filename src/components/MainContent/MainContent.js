@@ -17,222 +17,38 @@ export const MainContent = () => {
           className='MainContent__title'
           aria-label="Hi, I'm Jayesh, market researcher"
         >
-          <span
-            className='MainContent__title--letter'
-            onMouseEnter={toggleHover}
-            aria-hidden='true'
-          >
-            H
-          </span>
-          <span
-            className='MainContent__title--letter'
-            aria-hidden='true'
-            onMouseEnter={toggleHover}
-          >
-            i
-          </span>
-          <span
-            className='MainContent__title--letter'
-            aria-hidden='true'
-            onMouseEnter={toggleHover}
-          >
-            ,
-          </span>
+          <span className='MainContent__title--letter' aria-hidden='true' onMouseEnter={toggleHover}>H</span>
+          <span className='MainContent__title--letter' aria-hidden='true' onMouseEnter={toggleHover}>i</span>
+          <span className='MainContent__title--letter' aria-hidden='true' onMouseEnter={toggleHover}>,</span>
           <br />
-          <span
-            className='MainContent__title--letter'
-            aria-hidden='true'
-            onMouseEnter={toggleHover}
-          >
-            I
-          </span>
-          <span
-            className='MainContent__title--letter'
-            aria-hidden='true'
-            onMouseEnter={toggleHover}
-          >
-            '
-          </span>
-          <span
-            className='MainContent__title--letter space'
-            aria-hidden='true'
-            onMouseEnter={toggleHover}
-          >
-            m
-          </span>
-          <span
-            className='MainContent__title--letter seagreen'
-            aria-hidden='true'
-            onMouseEnter={toggleHover}
-          >
-            J
-          </span>
-          <span
-            className='MainContent__title--letter'
-            aria-hidden='true'
-            onMouseEnter={toggleHover}
-          >
-            a
-          </span>
-          <span
-            className='MainContent__title--letter'
-            aria-hidden='true'
-            onMouseEnter={toggleHover}
-          >
-            y
-          </span>
-          <span
-            className='MainContent__title--letter'
-            aria-hidden='true'
-            onMouseEnter={toggleHover}
-          >
-            e
-          </span>
-          <span
-            className='MainContent__title--letter'
-            aria-hidden='true'
-            onMouseEnter={toggleHover}
-          >
-            s
-          </span>
-          <span
-            className='MainContent__title--letter'
-            aria-hidden='true'
-            onMouseEnter={toggleHover}
-          >
-            h
-          </span>
-          <span
-            className='MainContent__title--letter'
-            aria-hidden='true'
-            onMouseEnter={toggleHover}
-          >
-            ,
-          </span>
+          <span className='MainContent__title--letter' aria-hidden='true' onMouseEnter={toggleHover}>I</span>
+          <span className='MainContent__title--letter' aria-hidden='true' onMouseEnter={toggleHover}>'</span>
+          <span className='MainContent__title--letter space' aria-hidden='true' onMouseEnter={toggleHover}>m</span>
+          <span className='MainContent__title--letter seagreen' aria-hidden='true' onMouseEnter={toggleHover}>J</span>
+          <span className='MainContent__title--letter' aria-hidden='true' onMouseEnter={toggleHover}>a</span>
+          <span className='MainContent__title--letter' aria-hidden='true' onMouseEnter={toggleHover}>y</span>
+          <span className='MainContent__title--letter' aria-hidden='true' onMouseEnter={toggleHover}>e</span>
+          <span className='MainContent__title--letter' aria-hidden='true' onMouseEnter={toggleHover}>s</span>
+          <span className='MainContent__title--letter' aria-hidden='true' onMouseEnter={toggleHover}>h</span>
+          <span className='MainContent__title--letter' aria-hidden='true' onMouseEnter={toggleHover}>,</span>
           <br />
-          <span
-            className='MainContent__title--letter'
-            aria-hidden='true'
-            onMouseEnter={toggleHover}
-          >
-            m
-          </span>
-          <span
-            className='MainContent__title--letter'
-            aria-hidden='true'
-            onMouseEnter={toggleHover}
-          >
-            a
-          </span>
-          <span
-            className='MainContent__title--letter'
-            aria-hidden='true'
-            onMouseEnter={toggleHover}
-          >
-            r
-          </span>
-          <span
-            className='MainContent__title--letter'
-            aria-hidden='true'
-            onMouseEnter={toggleHover}
-          >
-            k
-          </span>
-          <span
-            className='MainContent__title--letter'
-            aria-hidden='true'
-            onMouseEnter={toggleHover}
-          >
-            e
-          </span>
-          <span
-            className='MainContent__title--letter space'
-            aria-hidden='true'
-            onMouseEnter={toggleHover}
-          >
-            t
-          </span>
-          <span
-            className='MainContent__title--letter'
-            aria-hidden='true'
-            onMouseEnter={toggleHover}
-          >
-            r
-          </span>
-          <span
-            className='MainContent__title--letter'
-            aria-hidden='true'
-            onMouseEnter={toggleHover}
-          >
-            e
-          </span>
-          <span
-            className='MainContent__title--letter'
-            aria-hidden='true'
-            onMouseEnter={toggleHover}
-          >
-            s
-          </span>
-          <span
-            className='MainContent__title--letter'
-            aria-hidden='true'
-            onMouseEnter={toggleHover}
-          >
-            e
-          </span>
-          <span
-            className='MainContent__title--letter'
-            aria-hidden='true'
-            onMouseEnter={toggleHover}
-          >
-            a
-          </span>
-          <span
-            className='MainContent__title--letter'
-            aria-hidden='true'
-            onMouseEnter={toggleHover}
-          >
-            r
-          </span>
-          <span
-            className='MainContent__title--letter'
-            aria-hidden='true'
-            onMouseEnter={toggleHover}
-          >
-            c
-          </span>
-          <span
-            className='MainContent__title--letter'
-            aria-hidden='true'
-            onMouseEnter={toggleHover}
-          >
-            h
-          </span>
-          <span
-            className='MainContent__title--letter'
-            aria-hidden='true'
-            onMouseEnter={toggleHover}
-          >
-            e
-          </span>
-          <span
-            className='MainContent__title--letter'
-            aria-hidden='true'
-            onMouseEnter={toggleHover}
-          >
-            r
-          </span>
+          <span className='MainContent__title--letter' aria-hidden='true' onMouseEnter={toggleHover}>a</span>
+          <span className='MainContent__title--letter space' aria-hidden='true' onMouseEnter={toggleHover}>n</span>
+          <span className='MainContent__title--letter' aria-hidden='true' onMouseEnter={toggleHover}>E</span>
+          <span className='MainContent__title--letter' aria-hidden='true' onMouseEnter={toggleHover}>n</span>
+          <span className='MainContent__title--letter' aria-hidden='true' onMouseEnter={toggleHover}>t</span>
+          <span className='MainContent__title--letter' aria-hidden='true' onMouseEnter={toggleHover}>r</span>
+          <span className='MainContent__title--letter' aria-hidden='true' onMouseEnter={toggleHover}>e</span>
+          <span className='MainContent__title--letter' aria-hidden='true' onMouseEnter={toggleHover}>p</span>
+          <span className='MainContent__title--letter' aria-hidden='true' onMouseEnter={toggleHover}>r</span>
+          <span className='MainContent__title--letter' aria-hidden='true' onMouseEnter={toggleHover}>e</span>
+          <span className='MainContent__title--letter' aria-hidden='true' onMouseEnter={toggleHover}>n</span>
+          <span className='MainContent__title--letter' aria-hidden='true' onMouseEnter={toggleHover}>e</span>
+          <span className='MainContent__title--letter' aria-hidden='true' onMouseEnter={toggleHover}>u</span>
+          <span className='MainContent__title--letter' aria-hidden='true' onMouseEnter={toggleHover}>r</span>
         </h1>
-        <p className='MainContent__subtitle'>
-          CEO(Tearaveller) / Entrepreneur / Photographer / Freelancer / Blogger
-        </p>
-        <Link
-          to='/contact'
-          className='MainContent__contactMeCTA'
-          onMouseEnter={toggleHover}
-        >
-          Contact Me!
-        </Link>
+        <p className='MainContent__subtitle'>CEO(Tearaveller) / Market Researcher / Business Strategist / Photographer</p>
+        <Link to='/contact' className='MainContent__contactMeCTA' onMouseEnter={toggleHover}>Contact Me!</Link>
       </div>
     </div>
   );

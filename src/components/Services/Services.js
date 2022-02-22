@@ -1,16 +1,8 @@
 import { useState, useEffect } from 'react';
 import { Loader } from '../Loader/Loader';
-import { MainContent } from '../MainContent/MainContent';
-import { SideNav } from '../SideNav/SideNav';
-import logo from '../../resources/images/logo_transparent.png';
-import './Home.css';
-import { Contact } from '../Contact/Contact';
-import { About } from '../About/About';
-import { Photography } from '../Photography/Photography';
-import { Instagram } from '../Instagram/Instagram';
-import { Services } from '../Services/Services';
+import './Services.css';
 
-export const Home = () => {
+export const Services = () => {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
@@ -45,20 +37,12 @@ export const Home = () => {
       clearTimeout(timeoutId);
     };
   }, [isLoading]);
-
   return (
     <div className='Container__fullWidth'>
       {isLoading && <Loader />}
       {!isLoading && (
-        <div className='Home'>
-          <div className='Loader__flex section-full'>
-            <MainContent />
-          </div>
-          <About />
-          <Services />
-          <Photography />
-          <Instagram />
-          <Contact />
+        <div className='Services section-full'>
+          <p>Hi I am from Services component.</p>
         </div>
       )}
     </div>

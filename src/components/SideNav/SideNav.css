@@ -60,11 +60,12 @@
 .SideNav__SocialMedia--wrapper {
   align-items: center;
   display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 
 .SideNav__SocialMedia--wrapper > span {
-  margin-right: 2rem;
+  margin-bottom: 2rem;
 }
 
 .SideNav__SocialMedia--wrapper > span:nth-last-child(1) {

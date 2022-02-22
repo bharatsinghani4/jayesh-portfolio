@@ -7,6 +7,7 @@ import { Instagram } from './components/Instagram/Instagram';
 import { Photography } from './components/Photography/Photography';
 import { Tearaveller } from './components/Tearaveller/Tearaveller';
 import { SideNav } from './components/SideNav/SideNav';
+import { Services } from './components/Services/Services';
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
           <Route path='/contact' element={<Contact />} exact={true} />
           <Route path='/instagram' element={<Instagram />} exact={true} />
           <Route path='/photography' element={<Photography />} exact={true} />
+          <Route path='/services' element={<Services />} exact={true} />
           <Route path='/tearaveller' element={<Tearaveller />} exact={true} />
         </Routes>
         <SideNav />
