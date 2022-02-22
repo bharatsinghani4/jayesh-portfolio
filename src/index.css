@@ -58,11 +58,16 @@ body {
   color: #ffffff;
   font-family: raleway-medium;
   margin: 0;
+  overflow-x: hidden;
   padding: 0;
 }
 
 img {
   width: 100%;
+}
+
+.Container__fullWidth {
+  width: calc(100% - 24rem);
 }
 
 .section-full {

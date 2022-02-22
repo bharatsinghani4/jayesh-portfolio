@@ -3,9 +3,9 @@
   flex-direction: column;
   height: 100vh;
   justify-content: center;
-  width: 100%;
-  /* opacity: 0;
-  transition: opacity 1s ease-in-out; */
+  position: fixed;
+  right: 0;
+  width: calc(100% - 24rem);
 }
 
 .Loader__logo--box {

@@ -222,14 +222,6 @@ export const MainContent = () => {
           >
             r
           </span>
-          {/* <div className='MainContent__word'>
-            <div className='MainContent__word--inline'></div>
-            <div className='MainContent__word--inline'></div>
-          </div>
-          <div className='MainContent__word'>
-            <div className='MainContent__word--inline'></div>
-            <div className='MainContent__word--inline'></div>
-          </div> */}
         </h1>
         <p className='MainContent__subtitle'>
           CEO(Tearaveller) / Entrepreneur / Photographer / Freelancer / Blogger
