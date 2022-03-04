@@ -5,6 +5,14 @@ import Boop from '../Boop/Boop';
 import logoURL from '../../resources/images/logo_transparent.png';
 
 export const SideNav = () => {
+  const toggleActiveClass = (e) => {
+    const linksArray = Array.from(document.querySelectorAll('.SideNav__Links'));
+    linksArray.map((link) => {
+      link.classList.remove('active');
+    });
+    e.target.classList.add('active');
+  };
+
   return (
     <div className='SideNav'>
       <div className='SideNav__Logo--wrapper'>
@@ -14,22 +22,40 @@ export const SideNav = () => {
         <p className='SideNav__Logo--title'>Jayesh Singhani</p>
       </div>
       <div className='SideNav__Links--wrapper'>
-        <Link to='/about' className='SideNav__Links'>
+        <Link
+          to='/about'
+          className='SideNav__Links'
+          onClick={toggleActiveClass}>
           About
         </Link>
-        <Link to='/tearaveller' className='SideNav__Links'>
+        <Link
+          to='/tearaveller'
+          className='SideNav__Links'
+          onClick={toggleActiveClass}>
           Tearaveller
         </Link>
-        <Link to='/services' className='SideNav__Links'>
+        <Link
+          to='/services'
+          className='SideNav__Links'
+          onClick={toggleActiveClass}>
           Services
         </Link>
-        <Link to='/photography' className='SideNav__Links'>
+        <Link
+          to='/photography'
+          className='SideNav__Links'
+          onClick={toggleActiveClass}>
           Photography
         </Link>
-        <Link to='/instagram' className='SideNav__Links'>
+        <Link
+          to='/instagram'
+          className='SideNav__Links'
+          onClick={toggleActiveClass}>
           Instagram
         </Link>
-        <Link to='/contact' className='SideNav__Links'>
+        <Link
+          to='/contact'
+          className='SideNav__Links'
+          onClick={toggleActiveClass}>
           Contact Me
         </Link>
       </div>
